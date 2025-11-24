@@ -29,7 +29,7 @@ export N_JOBS="${SLURM_CPUS_PER_TASK}"
 
 # --- Entrenamiento en paralelo con joblib (datos sintéticos por defecto) ---
 srun python3 rnn_joblib.py train \
-  --n-samples 10000 --n-features 64 --classes 4 \
+  --n-samples 20000 --n-features 64 --classes 4 \
   --seeds 16 --max-iter 200 \
   --n-jobs "${N_JOBS}" --backend loky --inner-n-jobs 1 \
   --logs-dir ./logs \
