@@ -2,7 +2,7 @@
 #SBATCH --job-name=rnn_joblib
 #SBATCH --output=logs/rnn_out_%j.txt
 #SBATCH --error=logs/rnn_err_%j.txt
-#SBATCH --ntasks=1
+#SBATCH --ntasks=2
 #SBATCH --cpus-per-task=2
 #SBATCH --time=00:20:00
 #SBATCH --partition=standard
