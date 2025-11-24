@@ -1,0 +1,27 @@
+Python 3.6.8
+[INFO] SLURM_CPUS_PER_TASK=4, n_jobs=4, backend=loky, inner_n_jobs=1
+[INFO] Carpeta de logs: ./logs
+
+====== RESUMEN ENTRENAMIENTO ======
+seed= 0 | acc=1.0000 | gs_time=68.700s | seed_total=68.724s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed= 1 | acc=1.0000 | gs_time=69.203s | seed_total=69.227s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed= 2 | acc=1.0000 | gs_time=68.970s | seed_total=68.997s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed= 3 | acc=1.0000 | gs_time=69.060s | seed_total=69.085s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed= 4 | acc=1.0000 | gs_time=68.195s | seed_total=68.216s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed= 5 | acc=1.0000 | gs_time=68.326s | seed_total=68.347s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed= 6 | acc=1.0000 | gs_time=68.690s | seed_total=68.712s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed= 7 | acc=1.0000 | gs_time=68.953s | seed_total=68.977s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed= 8 | acc=1.0000 | gs_time=68.635s | seed_total=68.656s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed= 9 | acc=1.0000 | gs_time=68.782s | seed_total=68.803s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed=10 | acc=1.0000 | gs_time=68.826s | seed_total=68.847s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed=11 | acc=1.0000 | gs_time=69.165s | seed_total=69.188s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed=12 | acc=1.0000 | gs_time=67.119s | seed_total=67.140s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed=13 | acc=1.0000 | gs_time=67.243s | seed_total=67.259s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed=14 | acc=1.0000 | gs_time=67.490s | seed_total=67.506s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+seed=15 | acc=1.0000 | gs_time=67.461s | seed_total=67.477s | params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+-----------------------------------
+MEJOR: seed=0  acc=1.0000  params={'mlpclassifier__alpha': 0.0001, 'mlpclassifier__hidden_layer_sizes': (256,), 'mlpclassifier__learning_rate_init': 0.001}
+TIEMPO TOTAL ENTRENAMIENTO (pared): 275.949 s
+[OK] Modelo guardado en ./logs/mlp_model.joblib
+[OK] Métricas JSON: ./logs/metrics.json
+[OK] Métricas CSV: ./logs/metrics.csv
