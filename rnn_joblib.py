@@ -90,7 +90,8 @@ def cmd_train(args):
 
     # rejilla
     param_grid = {
-        "mlpclassifier__hidden_layer_sizes": [(64,), (128,), (128,64)],
+       # "mlpclassifier__hidden_layer_sizes": [(64,), (128,), (128,64)],
+        "mlpclassifier__hidden_layer_sizes": [(256,), (256,128), (512,256,128)],
         "mlpclassifier__learning_rate_init": [1e-3, 5e-4],
         "mlpclassifier__alpha": [1e-4, 1e-5],
     }
