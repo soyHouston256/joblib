@@ -3,7 +3,7 @@
     "n_jobs": 32,
     "backend": "loky",
     "inner_n_jobs": 1,
-    "total_train_wall_sec": 8.625781962000474,
+    "total_train_wall_sec": 15.293323740999767,
     "best_seed": 0,
     "best_acc": 1.0,
     "best_params": {
@@ -25,8 +25,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.40969070200299,
-      "fit_time_total_seed_sec": 7.416037447001145
+      "fit_time_gs_sec": 14.111688823002623,
+      "fit_time_total_seed_sec": 14.122209498000302
     },
     {
       "seed": 1,
@@ -38,8 +38,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.467026661001,
-      "fit_time_total_seed_sec": 7.473281315000349
+      "fit_time_gs_sec": 14.195821066001372,
+      "fit_time_total_seed_sec": 14.205938384999172
     },
     {
       "seed": 2,
@@ -51,8 +51,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.433139290998952,
-      "fit_time_total_seed_sec": 7.439266659999703
+      "fit_time_gs_sec": 14.158250868000323,
+      "fit_time_total_seed_sec": 14.168608752999717
     },
     {
       "seed": 3,
@@ -62,10 +62,10 @@
         "mlpclassifier__hidden_layer_sizes": [
           64
         ],
-        "mlpclassifier__learning_rate_init": 0.0005
+        "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.471351808999316,
-      "fit_time_total_seed_sec": 7.479686987000605
+      "fit_time_gs_sec": 14.16077545799999,
+      "fit_time_total_seed_sec": 14.170913260000816
     },
     {
       "seed": 4,
@@ -77,8 +77,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.6438624460024585,
-      "fit_time_total_seed_sec": 7.649516387999029
+      "fit_time_gs_sec": 14.2306189789997,
+      "fit_time_total_seed_sec": 14.240065499998309
     },
     {
       "seed": 5,
@@ -86,12 +86,12 @@
       "best_params": {
         "mlpclassifier__alpha": 0.0001,
         "mlpclassifier__hidden_layer_sizes": [
-          128
+          64
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.519137914998282,
-      "fit_time_total_seed_sec": 7.525976314998843
+      "fit_time_gs_sec": 14.017145590001746,
+      "fit_time_total_seed_sec": 14.027606879000814
     },
     {
       "seed": 6,
@@ -103,8 +103,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.564286275999621,
-      "fit_time_total_seed_sec": 7.570011053001508
+      "fit_time_gs_sec": 14.139130518997263,
+      "fit_time_total_seed_sec": 14.149572039001214
     },
     {
       "seed": 7,
@@ -116,8 +116,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.653237028000149,
-      "fit_time_total_seed_sec": 7.658852823999041
+      "fit_time_gs_sec": 14.195180348000576,
+      "fit_time_total_seed_sec": 14.205380125000374
     },
     {
       "seed": 8,
@@ -129,8 +129,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.4819194419978885,
-      "fit_time_total_seed_sec": 7.49123973800306
+      "fit_time_gs_sec": 14.130922880998696,
+      "fit_time_total_seed_sec": 14.141147258000274
     },
     {
       "seed": 9,
@@ -142,8 +142,21 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.508932492000895,
-      "fit_time_total_seed_sec": 7.514961507000407
+      "fit_time_gs_sec": 14.085587808000128,
+      "fit_time_total_seed_sec": 14.095827543998894
+    },
+    {
+      "seed": 10,
+      "acc": 1.0,
+      "best_params": {
+        "mlpclassifier__alpha": 0.0001,
+        "mlpclassifier__hidden_layer_sizes": [
+          64
+        ],
+        "mlpclassifier__learning_rate_init": 0.001
+      },
+      "fit_time_gs_sec": 14.227741487000458,
+      "fit_time_total_seed_sec": 14.237171766002575
     },
     {
       "seed": 11,
@@ -155,8 +168,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.586230508000881,
-      "fit_time_total_seed_sec": 7.592019987998356
+      "fit_time_gs_sec": 14.221327259998361,
+      "fit_time_total_seed_sec": 14.230775321000692
     },
     {
       "seed": 12,
@@ -168,8 +181,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.494723211999371,
-      "fit_time_total_seed_sec": 7.500917261997529
+      "fit_time_gs_sec": 14.122123783999996,
+      "fit_time_total_seed_sec": 14.132466307997674
     },
     {
       "seed": 13,
@@ -177,12 +190,12 @@
       "best_params": {
         "mlpclassifier__alpha": 0.0001,
         "mlpclassifier__hidden_layer_sizes": [
-          128
+          64
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.561595750001288,
-      "fit_time_total_seed_sec": 7.571681337001792
+      "fit_time_gs_sec": 14.286498974001006,
+      "fit_time_total_seed_sec": 14.295882780003012
     },
     {
       "seed": 14,
@@ -194,8 +207,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.33796055899802,
-      "fit_time_total_seed_sec": 7.344107429998985
+      "fit_time_gs_sec": 14.079976249999163,
+      "fit_time_total_seed_sec": 14.090358672998264
     },
     {
       "seed": 15,
@@ -207,21 +220,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.55120161800005,
-      "fit_time_total_seed_sec": 7.557061228999373
-    },
-    {
-      "seed": 10,
-      "acc": 0.998,
-      "best_params": {
-        "mlpclassifier__alpha": 0.0001,
-        "mlpclassifier__hidden_layer_sizes": [
-          64
-        ],
-        "mlpclassifier__learning_rate_init": 0.001
-      },
-      "fit_time_gs_sec": 7.49209508399872,
-      "fit_time_total_seed_sec": 7.498115385998972
+      "fit_time_gs_sec": 14.050944873000844,
+      "fit_time_total_seed_sec": 14.061317004998273
     }
   ]
 }
