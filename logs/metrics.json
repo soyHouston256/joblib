@@ -3,7 +3,7 @@
     "n_jobs": 4,
     "backend": "loky",
     "inner_n_jobs": 1,
-    "total_train_wall_sec": 31.351888978000716,
+    "total_train_wall_sec": 57.69953136100048,
     "best_seed": 0,
     "best_acc": 1.0,
     "best_params": {
@@ -25,8 +25,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.424321240001518,
-      "fit_time_total_seed_sec": 7.431505849999667
+      "fit_time_gs_sec": 13.991952677000882,
+      "fit_time_total_seed_sec": 14.004963637000401
     },
     {
       "seed": 1,
@@ -38,8 +38,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.625786245000199,
-      "fit_time_total_seed_sec": 7.632740666000245
+      "fit_time_gs_sec": 14.112026005001098,
+      "fit_time_total_seed_sec": 14.124744355000075
     },
     {
       "seed": 2,
@@ -51,8 +51,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.362308036001195,
-      "fit_time_total_seed_sec": 7.370298371000899
+      "fit_time_gs_sec": 14.13177676900159,
+      "fit_time_total_seed_sec": 14.143733098000666
     },
     {
       "seed": 3,
@@ -62,10 +62,10 @@
         "mlpclassifier__hidden_layer_sizes": [
           64
         ],
-        "mlpclassifier__learning_rate_init": 0.0005
+        "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.595881530000042,
-      "fit_time_total_seed_sec": 7.603442540999822
+      "fit_time_gs_sec": 14.07945826499963,
+      "fit_time_total_seed_sec": 14.092173226999876
     },
     {
       "seed": 4,
@@ -77,8 +77,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.687094805000015,
-      "fit_time_total_seed_sec": 7.693135535999318
+      "fit_time_gs_sec": 14.221828362999076,
+      "fit_time_total_seed_sec": 14.232070669000677
     },
     {
       "seed": 5,
@@ -86,12 +86,12 @@
       "best_params": {
         "mlpclassifier__alpha": 0.0001,
         "mlpclassifier__hidden_layer_sizes": [
-          128
+          64
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.517106667999542,
-      "fit_time_total_seed_sec": 7.52375813800063
+      "fit_time_gs_sec": 14.070328530000552,
+      "fit_time_total_seed_sec": 14.080634817999453
     },
     {
       "seed": 6,
@@ -103,8 +103,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.553811300998859,
-      "fit_time_total_seed_sec": 7.559244173000479
+      "fit_time_gs_sec": 14.12468007300049,
+      "fit_time_total_seed_sec": 14.134594911998647
     },
     {
       "seed": 7,
@@ -116,8 +116,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.6990323459995125,
-      "fit_time_total_seed_sec": 7.705447205000382
+      "fit_time_gs_sec": 14.244243361001281,
+      "fit_time_total_seed_sec": 14.253299801001049
     },
     {
       "seed": 8,
@@ -129,8 +129,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.384794203000638,
-      "fit_time_total_seed_sec": 7.390862033998928
+      "fit_time_gs_sec": 14.121995735000382,
+      "fit_time_total_seed_sec": 14.133500629999617
     },
     {
       "seed": 9,
@@ -142,8 +142,21 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.500096312000096,
-      "fit_time_total_seed_sec": 7.506194989000505
+      "fit_time_gs_sec": 14.174181575001057,
+      "fit_time_total_seed_sec": 14.185781709000366
+    },
+    {
+      "seed": 10,
+      "acc": 1.0,
+      "best_params": {
+        "mlpclassifier__alpha": 0.0001,
+        "mlpclassifier__hidden_layer_sizes": [
+          64
+        ],
+        "mlpclassifier__learning_rate_init": 0.001
+      },
+      "fit_time_gs_sec": 14.154457063999871,
+      "fit_time_total_seed_sec": 14.164736642000207
     },
     {
       "seed": 11,
@@ -155,8 +168,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.599298764998821,
-      "fit_time_total_seed_sec": 7.605240718999994
+      "fit_time_gs_sec": 14.16958256900034,
+      "fit_time_total_seed_sec": 14.181169274999775
     },
     {
       "seed": 12,
@@ -168,8 +181,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.418105132999699,
-      "fit_time_total_seed_sec": 7.4239883110003575
+      "fit_time_gs_sec": 14.057416325998929,
+      "fit_time_total_seed_sec": 14.068831235999824
     },
     {
       "seed": 13,
@@ -177,12 +190,12 @@
       "best_params": {
         "mlpclassifier__alpha": 0.0001,
         "mlpclassifier__hidden_layer_sizes": [
-          128
+          64
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.374076616000821,
-      "fit_time_total_seed_sec": 7.380133818000104
+      "fit_time_gs_sec": 14.074874022000586,
+      "fit_time_total_seed_sec": 14.085471698001129
     },
     {
       "seed": 14,
@@ -194,8 +207,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.342825338000694,
-      "fit_time_total_seed_sec": 7.349386687999868
+      "fit_time_gs_sec": 14.047201044999383,
+      "fit_time_total_seed_sec": 14.056998764999662
     },
     {
       "seed": 15,
@@ -207,21 +220,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 7.334785082999588,
-      "fit_time_total_seed_sec": 7.340107713998805
-    },
-    {
-      "seed": 10,
-      "acc": 0.998,
-      "best_params": {
-        "mlpclassifier__alpha": 0.0001,
-        "mlpclassifier__hidden_layer_sizes": [
-          64
-        ],
-        "mlpclassifier__learning_rate_init": 0.001
-      },
-      "fit_time_gs_sec": 7.527612585001407,
-      "fit_time_total_seed_sec": 7.534051642000122
+      "fit_time_gs_sec": 14.04451585499919,
+      "fit_time_total_seed_sec": 14.054957499000011
     }
   ]
 }
