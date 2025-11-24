@@ -1,9 +1,9 @@
 {
   "summary": {
-    "n_jobs": 8,
+    "n_jobs": 16,
     "backend": "loky",
     "inner_n_jobs": 1,
-    "total_train_wall_sec": 148.77281424900139,
+    "total_train_wall_sec": 89.97317764900072,
     "best_seed": 0,
     "best_acc": 1.0,
     "best_params": {
@@ -25,8 +25,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 73.50488687300094,
-      "fit_time_total_seed_sec": 73.52697301099761
+      "fit_time_gs_sec": 88.79631299900211,
+      "fit_time_total_seed_sec": 88.81227575400044
     },
     {
       "seed": 1,
@@ -38,8 +38,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 74.30537365200144,
-      "fit_time_total_seed_sec": 74.32662008300031
+      "fit_time_gs_sec": 88.3666704649986,
+      "fit_time_total_seed_sec": 88.38337869899988
     },
     {
       "seed": 2,
@@ -51,8 +51,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 74.0299921040023,
-      "fit_time_total_seed_sec": 74.05086655599735
+      "fit_time_gs_sec": 87.96149735500148,
+      "fit_time_total_seed_sec": 87.98157331100083
     },
     {
       "seed": 3,
@@ -64,8 +64,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 74.18754853300197,
-      "fit_time_total_seed_sec": 74.20920654200017
+      "fit_time_gs_sec": 88.7476989679999,
+      "fit_time_total_seed_sec": 88.76285669999925
     },
     {
       "seed": 4,
@@ -77,8 +77,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 74.08590633199856,
-      "fit_time_total_seed_sec": 74.10837635100324
+      "fit_time_gs_sec": 88.3706021149992,
+      "fit_time_total_seed_sec": 88.3869938880016
     },
     {
       "seed": 5,
@@ -90,8 +90,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 73.51002818900088,
-      "fit_time_total_seed_sec": 73.53034295399993
+      "fit_time_gs_sec": 88.19540734099792,
+      "fit_time_total_seed_sec": 88.21485317099723
     },
     {
       "seed": 6,
@@ -103,8 +103,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 74.25645694400009,
-      "fit_time_total_seed_sec": 74.27968094899916
+      "fit_time_gs_sec": 88.64922238999861,
+      "fit_time_total_seed_sec": 88.66788877299769
     },
     {
       "seed": 7,
@@ -116,8 +116,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 74.17995826799961,
-      "fit_time_total_seed_sec": 74.19995952699901
+      "fit_time_gs_sec": 88.04473584000152,
+      "fit_time_total_seed_sec": 88.06433529499918
     },
     {
       "seed": 8,
@@ -129,8 +129,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 73.14046509699983,
-      "fit_time_total_seed_sec": 73.15989078300117
+      "fit_time_gs_sec": 87.31905568300135,
+      "fit_time_total_seed_sec": 87.3402142499981
     },
     {
       "seed": 9,
@@ -142,8 +142,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 73.26730539500204,
-      "fit_time_total_seed_sec": 73.2827547199995
+      "fit_time_gs_sec": 88.2232600089992,
+      "fit_time_total_seed_sec": 88.24208748199817
     },
     {
       "seed": 10,
@@ -155,8 +155,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 73.66656070399767,
-      "fit_time_total_seed_sec": 73.68150890000106
+      "fit_time_gs_sec": 87.94946690899815,
+      "fit_time_total_seed_sec": 87.96707551500003
     },
     {
       "seed": 11,
@@ -168,8 +168,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 73.50124069100275,
-      "fit_time_total_seed_sec": 73.51643423399946
+      "fit_time_gs_sec": 88.7919486690007,
+      "fit_time_total_seed_sec": 88.80979666499843
     },
     {
       "seed": 12,
@@ -181,8 +181,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 73.01269975999821,
-      "fit_time_total_seed_sec": 73.02539282699945
+      "fit_time_gs_sec": 88.49400918799802,
+      "fit_time_total_seed_sec": 88.51278134400127
     },
     {
       "seed": 13,
@@ -194,8 +194,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 73.01196881100259,
-      "fit_time_total_seed_sec": 73.0259642739984
+      "fit_time_gs_sec": 88.15696070099875,
+      "fit_time_total_seed_sec": 88.17425403200104
     },
     {
       "seed": 14,
@@ -207,8 +207,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 73.47505319699849,
-      "fit_time_total_seed_sec": 73.4903424280019
+      "fit_time_gs_sec": 88.42447661700135,
+      "fit_time_total_seed_sec": 88.4429684780007
     },
     {
       "seed": 15,
@@ -220,8 +220,8 @@
         ],
         "mlpclassifier__learning_rate_init": 0.001
       },
-      "fit_time_gs_sec": 73.44323219799844,
-      "fit_time_total_seed_sec": 73.4585746240009
+      "fit_time_gs_sec": 88.50158858200302,
+      "fit_time_total_seed_sec": 88.51885190500252
     }
   ]
 }
